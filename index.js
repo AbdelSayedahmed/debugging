@@ -61,8 +61,8 @@ console.log(myVariable)
 
 // 2.
 
-// console.log(x);
-// let x = 5
+console.log(m);
+let m = 5
 
 // console.log
 
