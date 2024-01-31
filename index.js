@@ -22,7 +22,7 @@ function myFunction() {
 }
 
 // 4.
-// function() {}
+function name() {};
 
 // 5.
 // function whatsWrong() {
