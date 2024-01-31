@@ -38,8 +38,10 @@ const person = {
     let major = education[major];
     let university = education[university][name];
   
-    return "My name is ${person.firstName}, and I graduated from ${university} with a $[degree] in ${major}".
+    return `My name is ${person.firstName}, and I graduated from ${university} with a $[degree] in ${major}.`
   }
+
+  // SyntaxError: Unexpected token '}' also used backticks instead of quotation marks
   
   function logAllFriendsNamesAndAges(person) {
     let [ friends ] = person;
@@ -53,11 +55,13 @@ const person = {
     let [ phone ] = person;
   
     for (const key of phone) {
-      phone.key = "(" areaCode + ") " + phone.key;
+      phone.key = "(" + areaCode + ") " + phone.key;
     }
     return phone;
   }
-  
+
+  // SyntaxError: Unexpected identifier 'areaCode' added the '+' operator between "(" and areaCode
+
   function logFullAddress(person) {
     const [ address ] = person;
     let singleAddressStr = "";
@@ -71,16 +75,20 @@ const person = {
   function logIfCanDrive(person) {
     if (person[age] === "true") {
       console.log("This person is of the legal age to drive.");
-    } else if {
+    } else {
       console.log("This person cannot legally drive.")
     }
   }
   
+  // SyntaxError: Unexpected token '{' changed else if {} to else {}. else if did not have a condtional
+
   function addHeightProperty(person, height) {
     person[height] = height;
     return person;
   }
   
   function ageUpPerson1Year(person) {
-    person[age]++ += person[age];
+    person[age]++;
   }
+
+  // SyntaxError: Invalid left-hand side in assignment removed '+= person[age];' as it was not needed.
