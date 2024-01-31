@@ -25,7 +25,7 @@ function myFunction() {
 function name() {};
 
 // 5.
-// function whatsWrong() {
+function whatsWrong() {}
 
 // 6.
 
