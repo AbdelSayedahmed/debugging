@@ -56,8 +56,8 @@ arr;
 // REFERENCE ERRORS
 
 // 1.
-
-// console.log(myVariable)
+let myVariable = 'Happy Birthday Raz';
+console.log(myVariable)
 
 // 2.
 
