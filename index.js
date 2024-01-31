@@ -50,8 +50,8 @@ obj.name.first
 
 // 3.
 
-// const arr = [1,2,3]
-// arr();
+const arr = [1,2,3]
+arr;
 
 // REFERENCE ERRORS
 
