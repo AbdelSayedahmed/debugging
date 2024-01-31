@@ -17,9 +17,9 @@ if (x > 5) {
 const message = 'Hello, World!';
 
 // 3.
-// function myFunction()
-//   console.log("Hello!");
-// }
+function myFunction() {
+  console.log("Hello!");
+}
 
 // 4.
 // function() {}
