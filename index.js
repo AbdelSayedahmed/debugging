@@ -29,26 +29,24 @@ function whatsWrong() {}
 
 // 6.
 
-// let a = 6;
-// let b = 5;
-
-// 7.
+let a = 6;
+let b = 5;
 
 // TYPE ERRORS
 
 // 1.
 
-let a = 9;
-a = 5;
+let n = 9;
+n = 5;
 
 // 2.
 
-// const obj = { name: {
-//     first: "Raz",
-//     last: "Efron"
-// }}
+const obj = { name: {
+    first: "Raz",
+    last: "Efron"
+}}
 
-// obj.naem.first
+obj.name.first
 
 // 3.
 
