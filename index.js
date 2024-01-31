@@ -56,7 +56,8 @@ arr;
 // REFERENCE ERRORS
 
 // 1.
-let myVariable = 'Happy Birthday Raz';
+let myVariable = 'Defined Variable';
+
 console.log(myVariable)
 
 // 2.
@@ -71,9 +72,9 @@ let m = 5
 function sumOfAllOddElements(arr) {
     let sum = 0;
 
-    for (let i = 1; i < arr.length -1; i++) {
-        if (sum % 2 === 0) {
-            sum += i;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 !== 0) {
+            sum += arr[i];
         }
     }
     return sum
