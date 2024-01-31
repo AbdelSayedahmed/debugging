@@ -80,7 +80,7 @@ const person = {
     }
   }
   
-  // SyntaxError: Unexpected token '{' changed else if {} to else {}. else if did not have a condtional
+  // SyntaxError: Unexpected token '{' changed else if {} to else {}. else if did not have a conditional
 
   function addHeightProperty(person, height) {
     person[height] = height;
