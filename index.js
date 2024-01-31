@@ -29,8 +29,8 @@ function whatsWrong() {}
 
 // 6.
 
-// let a = 6;
-// let a = 5;
+let a = 6;
+let a = 5;
 
 // 7.
 
