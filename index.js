@@ -14,7 +14,7 @@ if (x > 5) {
 // Let's check the error message
 
 // 2.
-// const message = 'Hello, World!;
+const message = 'Hello, World!';
 
 // 3.
 // function myFunction()
