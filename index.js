@@ -5,9 +5,11 @@
 // SYNTAX ERRORS
 
 // 1.
-// if (x > 5 {
-//     console.log("Hello, World!");
-// }
+let x = 10;
+
+if (x > 5) {
+    console.log("Hello, World!");
+}
 
 // Let's check the error message
 
